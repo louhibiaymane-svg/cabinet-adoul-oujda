@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet d'Adoul Notarial Oujda | Me Hachlaf Fatima Zohra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <div>
+                    <div class="logo-text-main">Cabinet d'Adoul Notarial Oujda</div>
+                    <div class="logo-text-sub">Me Hachlaf Fatima Zohra & Associé(e)</div>
+                </div>
+            </a>
+            <ul class="nav-links">
+    <li><a href="index.html" class="active">Accueil</a></li>
+    <li><a href="a-propos.html">Le Bureau</a></li>
+    <li><a href="index.html#services">Nos Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index-ar.html" class="lang-switch"><i class="fa-solid fa-globe"></i> AR</a></li>
+           </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Cabinet d'Adoul Notarial Oujda</h1>
+        <div class="subtitle-ar">المكتب العدلي التوثيقي وجدة</div>
+        <div class="subtitle-fr">Me Hachlaf Fatima Zohra — عدل محلفة باستئنافية وجدة</div>
+        <p>Authentification d'actes juridiques, contrats immobiliers, actes de mariage, successions et droit des affaires en toute sécurité et conformité.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="contact.html" class="btn-primary">Nous Contacter</a>
+            <a href="a-propos.html" class="btn-secondary">Découvrir le Bureau</a>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <h2 style="text-align: center; color: var(--primary-dark); margin-bottom: 2rem;">Nos Domaines d'Expertise</h2>
+        
+        <div class="tabs-header">
+            <button class="tab-btn active" onclick="showTab('tab-mariage', this)">Mariage (Zawaj)</button>
+            <button class="tab-btn" onclick="showTab('tab-succession', this)">Succession (Irith)</button>
+            <button class="tab-btn" onclick="showTab('tab-immobilier', this)">Vente Immobilière</button>
+            <button class="tab-btn" onclick="showTab('tab-societe', this)">Création Société</button>
+        </div>
+
+        <div id="tab-mariage" class="tab-panel active">
+            <h3 style="color: var(--primary-dark);">Acte de Mariage (Zawaj)</h3>
+            <p>Etablissement et légalisation de l'acte de mariage conformément au Code de la famille (Moudawana).</p>
+            <ul class="checklist">
+                <li><i class="fa-solid fa-circle-check"></i> CIN des deux époux (Originaux & Copies)</li>
+                <li><i class="fa-solid fa-circle-check"></i> Certificat de célibat / capacité matrimoniale</li>
+                <li><i class="fa-solid fa-circle-check"></i> Extrait d'acte de naissance récent</li>
+                <li><i class="fa-solid fa-circle-check"></i> Certificat médical prénuptial</li>
+            </ul>
+            <a href="service-mariage.html" class="btn-primary">Détails & Fiche PDF</a>
+        </div>
+
+        <div id="tab-succession" class="tab-panel">
+            <h3 style="color: var(--primary-dark);">Succession & Héritage (Irith)</h3>
+            <p>Rédaction des actes d'Iraat, partage successoral et liquidation de patrimoine.</p>
+            <ul class="checklist">
+                <li><i class="fa-solid fa-circle-check"></i> Certificat de décès du défunt</li>
+                <li><i class="fa-solid fa-circle-check"></i> Livret de famille (état civil)</li>
+                <li><i class="fa-solid fa-circle-check"></i> Cartes d'identité de tous les héritiers</li>
+                <li><i class="fa-solid fa-circle-check"></i> Titres de propriété des biens</li>
+            </ul>
+            <a href="service-succession.html" class="btn-primary">Détails & Fiche PDF</a>
+        </div>
+
+        <div id="tab-immobilier" class="tab-panel">
+            <h3 style="color: var(--primary-dark);">Transactions Immobilières</h3>
+            <p>Sécurisation et rédaction d'actes de vente, compromis et transactions foncières.</p>
+            <ul class="checklist">
+                <li><i class="fa-solid fa-circle-check"></i> Titre foncier (Chahada Milkiya)</li>
+                <li><i class="fa-solid fa-circle-check"></i> CIN du vendeur et de l'acheteur</li>
+                <li><i class="fa-solid fa-circle-check"></i> Quitus fiscal et pièces administratives</li>
+            </ul>
+            <a href="service-immobilier.html" class="btn-primary">Détails & Fiche PDF</a>
+        </div>
+
+        <div id="tab-societe" class="tab-panel">
+            <h3 style="color: var(--primary-dark);">Droit des Sociétés</h3>
+            <p>Rédaction des statuts et accompagnement juridique lors de la création d'entreprises.</p>
+            <ul class="checklist">
+                <li><i class="fa-solid fa-circle-check"></i> Certificat négatif (OMPIC)</li>
+                <li><i class="fa-solid fa-circle-check"></i> Pièces d'identité des associés/gérants</li>
+                <li><i class="fa-solid fa-circle-check"></i> Contrat de bail ou domiciliation</li>
+            </ul>
+            <a href="service-societe.html" class="btn-primary">Détails & Fiche PDF</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Cabinet d'Adoul Notarial Oujda</h4>
+                <p><strong>Me Hachlaf Fatima Zohra</strong><br>عدل محلفة باستئنافية وجدة</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">Le Bureau</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Coordonnées</h4>
+                <p><i class="fa-solid fa-location-dot" style="color: var(--accent-red);"></i> Bd Abdelkhalek Torres (Ancienne route Boudir) N° 299, Oujda</p>
+                <p><i class="fa-solid fa-phone" style="color: var(--accent-red);"></i> 06 15 57 10 64</p>
+                <p><i class="fa-solid fa-envelope" style="color: var(--accent-red);"></i> hachlaffz@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Cabinet d'Adoul Notarial Oujda - Me Hachlaf Fatima Zohra. Tous droits réservés.
+        </div>
+    </footer>
+
+    <script>
+        function showTab(tabId, btnElement) {
+            document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            btnElement.classList.add('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+site-adoul-v2/
+├── index.html            (Page d'Accueil)
+├── a-propos.html         (Le Bureau - Présentation des 2 Adoules)
+├── contact.html          (Page de Contact & Localisation)
+├── 
+├── service-mariage.html  (Page détaillée Mariage)
+├── service-succession.html
+├── service-immobilier.html
+├── service-societe.html
+└── style.css             (Feuille de style centralisée)

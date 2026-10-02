@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Localisation | Cabinet d'Adoul Notarial Oujda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .contact-container {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .contact-info-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--accent-red);
+        }
+
+        .contact-info-card h2 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 1.5rem;
+        }
+
+        .info-item i {
+            background: var(--bg-light);
+            color: var(--accent-red);
+            padding: 12px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            border: 1px solid var(--primary);
+        }
+
+        .info-text h3 {
+            font-size: 1rem;
+            color: var(--primary-dark);
+            margin-bottom: 0.2rem;
+        }
+
+        .info-text p, .info-text a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .info-text a:hover {
+            color: var(--accent-red);
+        }
+
+        /* Formulaire de Contact */
+        .contact-form-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--primary);
+        }
+
+        .contact-form-card h2 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            color: var(--primary-dark);
+            font-size: 0.9rem;
+        }
+
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            background: #fafafa;
+        }
+
+        .form-group input:focus, 
+        .form-group select:focus, 
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: var(--white);
+        }
+
+        /* Section Carte Google Maps */
+        .map-section {
+            max-width: 1100px;
+            margin: 2rem auto 4rem;
+            padding: 0 1.5rem;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 380px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 2px solid var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <div>
+                    <div class="logo-text-main">Cabinet d'Adoul Notarial Oujda</div>
+                    <div class="logo-text-sub">Me Hachlaf Fatima Zohra & Associé(e)</div>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">Le Bureau</a></li>
+                <li><a href="index.html#services">Nos Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="page-banner">
+        <h1>Contact & Localisation</h1>
+        <p>Prenez rendez-vous ou demandez des informations pour vos actes juridiques</p>
+    </div>
+
+    <div class="contact-container">
+        
+        <!-- Informations de contact réelles -->
+        <div class="contact-info-card">
+            <h2>Nos Coordonnées</h2>
+            
+            <div class="info-item">
+                <i class="fa-solid fa-user-tie"></i>
+                <div class="info-text">
+                    <h3>Adoule Assermentée</h3>
+                    <p><strong>Me Hachlaf Fatima Zohra</strong><br>عدل محلفة باستئنافية وجدة</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info-text">
+                    <h3>Adresse du Cabinet</h3>
+                    <p>Boulevard Abdelkhalek Torres<br>(Ancienne route de Boudir) N° 299,<br>Oujda, Maroc</p>
+                    <p dir="rtl" style="font-size: 0.85rem; color: #555; margin-top: 3px;">شارع عبد الخالق الطوريس (طريق بودير سابقا) رقم 299 وجدة</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info-text">
+                    <h3>Téléphone</h3>
+                    <p><a href="tel:0615571064">06 15 57 10 64</a></p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info-text">
+                    <h3>Adresse E-mail</h3>
+                    <p><a href="mailto:hachlaffz@gmail.com">hachlaffz@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-clock"></i>
+                <div class="info-text">
+                    <h3>Horaires d'ouverture</h3>
+                    <p>Du Lundi au Vendredi : 08:30 – 16:30<br>Samedi & Dimanche : Fermé</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulaire de demande de RDV / Message -->
+        <div class="contact-form-card">
+            <h2>Envoyer un message</h2>
+            <form action="#" method="POST" onsubmit="alert('Votre message a été envoyé avec succès. Nous vous contacterons dans les plus brefs délais.'); return false;">
+                
+                <div class="form-group">
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Ex: Ahmed Benali">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Numéro de téléphone *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Ex: 06 00 00 00 00">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Objet / Service concerné</label>
+                    <select id="service" name="service">
+                        <option value="mariage">Acte de Mariage (Zawaj)</option>
+                        <option value="succession">Succession & Héritage (Irith)</option>
+                        <option value="immobilier">Transaction Immobilière / Vente</option>
+                        <option value="societe">Création d'Entreprise / Statuts</option>
+                        <option value="autre">Autre demande de renseignement</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Détail de votre demande *</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Précisez votre demande ou vos disponibilités pour un rendez-vous..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; cursor: pointer;">Envoyer la demande</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Carte de localisation Google Maps -->
+    <div class="map-section">
+        <h2 style="color: var(--primary-dark); margin-bottom: 1rem; font-size: 1.3rem;">Plan d'accès au Cabinet</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.250868823297!2d-1.9218274!3d34.6730107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7864a7802ad543%3A0x6b1db9686dd80a8c!2sBd%20Abdelkhalek%20Torres%2C%20Oujda!5e0!3m2!1sfr!2sma!4v1710000000000!5m2!1sfr!2sma" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Cabinet d'Adoul Notarial Oujda</h4>
+                <p><strong>Me Hachlaf Fatima Zohra</strong><br>عدل محلفة باستئنافية وجدة</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">Le Bureau</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Coordonnées</h4>
+                <p><i class="fa-solid fa-location-dot" style="color: var(--accent-red);"></i> Bd Abdelkhalek Torres (Ancienne route Boudir) N° 299, Oujda</p>
+                <p><i class="fa-solid fa-phone" style="color: var(--accent-red);"></i> 06 15 57 10 64</p>
+                <p><i class="fa-solid fa-envelope" style="color: var(--accent-red);"></i> hachlaffz@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Cabinet d'Adoul Notarial Oujda - Me Hachlaf Fatima Zohra. Tous droits réservés.
+        </div>
+    </footer>
+
+</body>
+</html>
